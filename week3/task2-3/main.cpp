@@ -19,7 +19,7 @@ int main() {
     for (int i = 0; i < n - 1; i++)
     {
         rational obj;
-        cout << "...." << endl;
+        cout << "..." << endl;
         cout << "Сравнение элементов (==): " << i + 1 << " и " << i + 2 << ": ";
         cout << endl;
         bool k = arr[i] == arr[i + 1];
