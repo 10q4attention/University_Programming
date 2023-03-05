@@ -14,14 +14,14 @@ rational::rational(){
     b = 1;
 };
 
-rational::rational(int a1 /*= 1*/, int b1 /*= 1*/){
+rational::rational(int a1, int b1){
     if (b1 == 0) throw exception();
     int d = gcd(a1, b1);
     a = a1 / d;
     b = b1 / d;
 };
 
-void rational::set(int a1 /*= 1*/, int b1 /*= 1*/){
+void rational::set(int a1, int b1){
     if (b1 == 0) throw exception();
     int d = gcd(a1, b1);
     a = a1 / d;
